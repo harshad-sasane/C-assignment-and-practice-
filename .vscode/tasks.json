@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build and run",
+      "type": "shell",
+      "command": "gcc -Wall -Wextra -Wpedantic -g3 -O0 src/practice/basics/even_odd.c -o build/Debug/outDebug && ./build/Debug/outDebug",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

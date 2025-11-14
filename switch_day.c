@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   int day;
   printf("Enter 1-7: ");
   scanf("%d", &day);
