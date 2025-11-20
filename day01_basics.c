@@ -5,7 +5,7 @@ int main(void) {
   // 1. Print greeting
   printf("Hello C World!\n");
 
-  // 2. Variable practic,
+  // 2. Variable practic
   int age = 25;
   float height = 5.9;
   char initial = 'A';
